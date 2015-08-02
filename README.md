@@ -7,18 +7,23 @@
 Edit the app.py and replace the *SERIAL_PORT* line so that it points to the serial port on your system where the 
 modem is.
 
-```SERIAL_PORT = '/dev/ttsS0'
+```
+SERIAL_PORT = '/dev/ttsS0'
 ```
 
 ### Create the sqlite3 database
 
 Create the database
 
-```sqlite3 calls.db```
+```
+sqlite3 calls.db
+```
 
 Create single table to store all the calls
 
-```CREATE TABLE CALLS(ID INTEGER PRIMARY KEY AUTOINCREMENT, TIMESTAMP INT, NUMBER TEXT, NAME TEXT);```
+```
+CREATE TABLE CALLS(ID INTEGER PRIMARY KEY AUTOINCREMENT, TIMESTAMP INT, NUMBER TEXT, NAME TEXT);
+```
 
 ## Running
 
