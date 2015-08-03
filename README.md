@@ -8,12 +8,12 @@ Edit the app.py and replace the *SERIAL_PORT* line so that it points to the seri
 modem is.
 
 ```
-SERIAL_PORT = '/dev/ttsS0'
+SERIAL_PORT = '/dev/ttyS0'
 ```
 
 ### Create the sqlite3 database
 
-Create the database
+Create the database if needed
 
 ```
 sqlite3 calls.db
